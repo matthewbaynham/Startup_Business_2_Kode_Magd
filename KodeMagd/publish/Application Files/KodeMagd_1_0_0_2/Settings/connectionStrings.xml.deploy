@@ -1,0 +1,1717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConnectionStrings>
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>Standard security</Type>
+    <Notes />
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.Jet.OLEDB.4.0</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>C:\*.mdb</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>admin</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value />
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>With database password</Type>
+    <Notes>This is the connection string to use when you have an access database protected with a password using the Set Database Password function in Access.</Notes>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.Jet.OLEDB.4.0</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>C:\*.mdb</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Database Password</Name>
+        <Value>MyDbPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>My string</Type>
+    <Notes></Notes>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.ACE.OLEDB.12.0</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>C:\*.accdb</Value>
+      </Element>
+      <Element>
+        <Name>Mode</Name>
+        <Value>Share Deny None</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:System database</Name>
+        <Value>C:\Users\User\AppData\Roaming\Microsoft\Access\System.mdw</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Registry Path</Name>
+        <Value>Software\Microsoft\Office\14.0\Access\Access Connectivity Engine</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Engine Type</Name>
+        <Value>6</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Database Locking Mode</Name>
+        <Value>1</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Global Partial Bulk Ops</Name>
+        <Value>2</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Global Bulk Transactions</Name>
+        <Value>1</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Create System Database</Name>
+        <Value>False</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Encrypt Database</Name>
+        <Value>False</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Don't Copy Locale on Compact</Name>
+        <Value>False</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Compact Without Replica Repair</Name>
+        <Value>False</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:SFP</Name>
+        <Value>False</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Support Complex Data</Name>
+        <Value>True</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Bypass UserInfo Validation</Name>
+        <Value>False</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS SQL</Backend>
+    <Type>SQL Server</Type>
+    <Notes>Notes</Notes>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{SQL Server}</Value>
+      </Element>
+      <Element>
+        <Name>Server</Name>
+        <Value>MyServer</Value>
+      </Element>
+      <Element>
+        <Name>Trusted_Connection</Name>
+        <Value>yes</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>MyDBInstance</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle 8i7</Type>
+    <Notes>To connect with Oracle databases using a Microsoft Driver.</Notes>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{Microsoft ODBC for Oracle}</Value>
+      </Element>
+      <Element>
+        <Name>Server</Name>
+        <Value>ORACLE8i7</Value>
+      </Element>
+      <Element>
+        <Name>Persist Security Info</Name>
+        <Value>FALSE</Value>
+      </Element>
+      <Element>
+        <Name>Trusted_Connection</Name>
+        <Value>Yes</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>MS Access</Type>
+    <Notes>To connect with Access databases.</Notes>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{Microsoft Access Driver (*.mdb)}</Value>
+      </Element>
+      <Element>
+        <Name>DBQ</Name>
+        <Value>c:\*.mdb</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Excel</Backend>
+    <Type>MS Excel</Type>
+    <Notes>To connect with Excel Files</Notes>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{Microsoft Excel Driver (*.xls)}</Value>
+      </Element>
+      <Element>
+        <Name>DBQ</Name>
+        <Value>c:\*.xls</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Text File</Backend>
+    <Type>Text File</Type>
+    <Notes>To connect with Text Files</Notes>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{Microsoft Text Driver (*.txt; *.csv)}</Value>
+      </Element>
+      <Element>
+        <Name>DBQ</Name>
+        <Value>c:\*</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>DSN</Backend>
+    <Type>Via DSN File</Type>
+    <Notes>
+"Don't use DSN files unless there is no other option and even then put more effert into looking for another option.
+When you release your application you will have to manage the roll out of the DSN files and initialling this will be hard but then over time when there are different versions it'll become even harder.
+Using DSN files gives you another dependancy and every extra dependancy is a bad thing because things can go wrong with each and every dependancy.
+DSN files should be an absolute last resort."
+    </Notes>
+    <Elements>
+      <Element>
+        <Name>DSN</Name>
+        <Value>dsnname</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle 8i</Type>
+    <Notes></Notes>
+    <Elements>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>Oracle8i</Value>
+      </Element>
+      <Element>
+        <Name>Integrated Security</Name>
+        <Value>Yes</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>Microsoft ACE OLEDB 12.0 - Standard security</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.ACE.OLEDB.12.0</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>C:\myDirectory\myAccessFile.accdb</Value>
+      </Element>
+      <Element>
+        <Name>Persist Security Info</Name>
+        <Value>False</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>Microsoft ACE OLEDB 12.0 - DataDirectory functionality</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.ACE.OLEDB.12.0</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>DataDirectory|DataDirectory\myAccessFile.accdb</Value>
+      </Element>
+      <Element>
+        <Name>Persist Security Info</Name>
+        <Value>False</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>Microsoft ACE OLEDB 12.0 - Standard security (Legacy mdb)</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.ACE.OLEDB.12.0</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>C:\myDirectory\myAccessFile.mdb</Value>
+      </Element>
+      <Element>
+        <Name>Persist Security Info</Name>
+        <Value>False</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>Microsoft ACE OLEDB 12.0 - With database password (Legacy mdb)</Type>
+    <Notes>
+This is the connection string to use when you have an Access 97 - 2003 database protected with a password using the ""Set Database Password"" function in Access.
+Some reports of problems with password longer than 14 characters. Also that some characters might cause trouble. If you are having problems, try change password to a short one with normal characters.
+    </Notes>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.ACE.OLEDB.12.0</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>C:\myDirectory\myAccessFile.mdb</Value>
+      </Element>
+      <Element>
+        <Name>Jet OLEDB:Database Password</Name>
+        <Value>MyDbPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>"
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>Microsoft ACE OLEDB 12.0 - DataDirectory functionality (mdb file)</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.ACE.OLEDB.12.0</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>|DataDirectory|\myAccessFile.mdb</Value>
+      </Element>
+      <Element>
+        <Name>Persist Security Info</Name>
+        <Value>False</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>Microsoft ACE OLEDB 12.0 - Network Location (Legacy mdb)</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.ACE.OLEDB.12.0</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>\\serverName\shareName\directory\myAccessFile.mdb</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Access</Backend>
+    <Type>Microsoft Jet OLE DB 4.0 - Standard security</Type>
+    <Notes>JET in 64 bit environments</Notes>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.Jet.OLEDB.4.0</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>C:\mydatabase.mdb</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>admin</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value></Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MySQL</Backend>
+    <Type>MySQLDriverCS</Type>
+    <Elements>
+      <Element>
+        <Name>Location</Name>
+        <Value>myServerAddress</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>User ID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Port</Name>
+        <Value>3306</Value>
+      </Element>
+      <Element>
+        <Name>Extended Properties</Name>
+        <Value>""""</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MySQL</Backend>
+    <Type>SevenObjects MySqlClient</Type>
+    <Elements>
+      <Element>
+        <Name>Host</Name>
+        <Value>myServerAddress</Value>
+      </Element>
+      <Element>
+        <Name>UserName</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MySQL</Backend>
+    <Type>dotConnect for MySQL (former MyDirect.NET and Core Labs MySQLDirect.NET)</Type>
+    <Elements>
+      <Element>
+        <Name>User ID</Name>
+        <Value>root</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Host</Name>
+        <Value>localhost</Value>
+      </Element>
+      <Element>
+        <Name>Port</Name>
+        <Value>3306</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>Direct</Name>
+        <Value>true</Value>
+      </Element>
+      <Element>
+        <Name>Protocol</Name>
+        <Value>TCP</Value>
+      </Element>
+      <Element>
+        <Name>Compress</Name>
+        <Value>false</Value>
+      </Element>
+      <Element>
+        <Name>Pooling</Name>
+        <Value>true</Value>
+      </Element>
+      <Element>
+        <Name>Min Pool Size</Name>
+        <Value>0</Value>
+      </Element>
+      <Element>
+        <Name>Max Pool Size</Name>
+        <Value>100</Value>
+      </Element>
+      <Element>
+        <Name>Connection Lifetime</Name>
+        <Value>0</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MySQL</Backend>
+    <Type>MySQL OLEDB</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>MySQLProv</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MySQL</Backend>
+    <Type>eInfoDesigns.dbProvider</Type>
+    <Notes>.NET Framework Data Provider for OLE DB</Notes>
+    <Elements>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>myServerAddress</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>User ID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Command Logging</Name>
+        <Value>false</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MySQL</Backend>
+    <Type>MySQL Connector/ODBC 5.1 - Local database</Type>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{MySQL ODBC 5.1 Driver}</Value>
+      </Element>
+      <Element>
+        <Name>Server</Name>
+        <Value>localhost</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>User</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Option</Name>
+        <Value>3</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MySQL</Backend>
+    <Type>MySQL Connector/ODBC 5.2 - 64 bit version of the driver</Type>
+    <Notes>Note: substute x for the driver name.</Notes>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{MySQL ODBC 5.2 X Driver}</Value>
+      </Element>
+      <Element>
+        <Name>Server</Name>
+        <Value>myServer</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>User</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Option</Name>
+        <Value>3</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>.NET Framework Data Provider for Oracle</Type>
+    <Notes>only Oracle 8i release 3 or later </Notes>
+    <Elements>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>myOracleDB</Value>
+      </Element>
+      <Element>
+        <Name>Integrated Security</Name>
+        <Value>yes</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>.NET Framework Data Provider for Oracle - Specifying username and password</Type>
+    <Notes>only Oracle 8i release 3 or later </Notes>
+    <Elements>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>myOracleDB</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Integrated Security</Name>
+        <Value>no</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>.NET Framework Data Provider for Oracle - Windows Authentication</Type>
+    <Elements>
+      <Element>
+        <Name>User Id</Name>
+        <Value>/</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>oracle</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>dotConnect for Oracle</Type>
+    <Elements>
+      <Element>
+        <Name>User ID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Host</Name>
+        <Value>ora</Value>
+      </Element>
+      <Element>
+        <Name>Pooling</Name>
+        <Value>true</Value>
+      </Element>
+      <Element>
+        <Name>Min Pool Size</Name>
+        <Value>0</Value>
+      </Element>
+      <Element>
+        <Name>Max Pool Size</Name>
+        <Value>100</Value>
+      </Element>
+      <Element>
+        <Name>Connection Lifetime</Name>
+        <Value>0</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle Data Provider for .NET / ODP.NET - Using integrated security</Type>
+    <Elements>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>TORCL</Value>
+      </Element>
+      <Element>
+        <Name>Integrated Security</Name>
+        <Value>SSPI</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle Data Provider for .NET / ODP.NET - Using Windows user authentication</Type>
+    <Notes>.NET stored procedures do not support OS Authentication.</Notes>
+    <Elements>
+      <Element>
+        <Name>User Id</Name>
+        <Value>/</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>oracle</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle in OraHome92</Type>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{Oracle in OraHome92}</Value>
+      </Element>
+      <Element>
+        <Name>Dbq</Name>
+        <Value>myTnsServiceName</Value>
+      </Element>
+      <Element>
+        <Name>Uid</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Pwd</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle in XEClient</Type>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>(Oracle in XEClient)</Value>
+      </Element>
+      <Element>
+        <Name>dbq</Name>
+        <Value>192.168.27.1:1521/XE</Value>
+      </Element>
+      <Element>
+        <Name>Uid</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Pwd</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle in OraClient11g_home1</Type>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{Oracle in OraClient11g_home1}</Value>
+      </Element>
+      <Element>
+        <Name>Dbq</Name>
+        <Value>myTnsServiceName</Value>
+      </Element>
+      <Element>
+        <Name>Uid</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Pwd</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle Provider for OLE DB - Standard Security</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>OraOLEDB.Oracle</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>MyOracleDB</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle Provider for OLE DB - Oracle XE, VB6 ADO</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>OraOLEDB.Oracle</Value>
+      </Element>
+      <Element>
+        <Name>dbq</Name>
+        <Value>localhost:1521/XE</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle Provider for OLE DB - Oracle XE, C++ ADO</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>OraOLEDB.Oracle</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>localhost:1521/XE</Value>
+      </Element>
+      <Element>
+        <Name>Initial Catalog</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Oracle Provider for OLE DB - Using with Microsofts OLE DB .NET Data Provider</Type>
+    <Notes>Microsoft OLE DB .NET Data Provider utilises OraOLEDB OLE DB Provide to access Oracle backend.  OLEDB.NET attribute cannot be used in ADO applications.</Notes>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>OraOLEDB.Oracle</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>myOracleDB</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>OLEDB.NET</Name>
+        <Value>True</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Microsoft OLE DB Provider for Oracle - Standard security</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>msdaora</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>myOracleDB</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Microsoft OLE DB Provider for Oracle - Trusted connection</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>msdaora</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>myOracleDB</Value>
+      </Element>
+      <Element>
+        <Name>Persist Security Info</Name>
+        <Value>False</Value>
+      </Element>
+      <Element>
+        <Name>Integrated Security</Name>
+        <Value>Yes</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Microsoft ODBC Driver for Oracle - Older Version</Type>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{Microsoft ODBC Driver for Oracle}</Value>
+      </Element>
+      <Element>
+        <Name>ConnectString</Name>
+        <Value>OracleServer.world</Value>
+      </Element>
+      <Element>
+        <Name>Uid</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Pwd</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>Microsoft ODBC for Oracle - Newer Version</Type>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{Microsoft ODBC for Oracle}</Value>
+      </Element>
+      <Element>
+        <Name>Server</Name>
+        <Value>myServerAddress</Value>
+      </Element>
+      <Element>
+        <Name>Uid</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Pwd</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>.NET Framework Data Provider for ODBC - Use an ODBC driver from .NET</Type>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{odbc driver's name}</Value>
+      </Element>
+      <Element>
+        <Name>OdbcKey1</Name>
+        <Value>value1</Value>
+      </Element>
+      <Element>
+        <Name>OdbcKey2</Name>
+        <Value>value2</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>Oracle</Backend>
+    <Type>MSDataShape - MSDataShape (Oracle)</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>MSDataShape</Value>
+      </Element>
+      <Element>
+        <Name>Persist Security Info</Name>
+        <Value>False</Value>
+      </Element>
+      <Element>
+        <Name>Data Provider</Name>
+        <Value>MSDAORA</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>orac</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS SQL</Backend>
+    <Type>.NET Framework Data Provider for SQL Server - Standard Security</Type>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>myServer</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS SQL</Backend>
+    <Type>.NET Framework Data Provider for SQL Server - Trusted Connection</Type>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>myServer</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>Trusted_Connection</Name>
+        <Value>True</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS SQL</Backend>
+    <Type>.NET Framework Data Provider for SQL Server - Enable MARS</Type>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>myServer</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>MultipleActiveResultSets</Name>
+        <Value>true</Value>
+      </Element>
+      <Element>
+        <Name>Trusted_Connection</Name>
+        <Value>True</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS SQL</Backend>
+    <Type>.NET Framework Data Provider for SQL Server - Attach database file on connect to instance of local SQL Server Express</Type>
+    <Notes>The Database parameter is needed because if the named database already is attached then the SQL Server does not reattach.  It will use the attached database as a default for the connection.</Notes>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>.\SQLExpress</Value>
+      </Element>
+      <Element>
+        <Name>AttachDbFilename</Name>
+        <Value>C:\MyFolder\MyDataFile.mdf</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>dbname</Value>
+      </Element>
+      <Element>
+        <Name>Trusted_Connection</Name>
+        <Value>Yes</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS SQL</Backend>
+    <Type>.NET Framework Data Provider for SQL Server - Attach a database file, located in the data directory, on connect to a local SQL Server Express instance</Type>
+    <Notes>If the named database is already attached then the SQL server will not reattach, so we need a database parameter.  It will use the attached database as a default for the connection.</Notes>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>.\SQLExpress</Value>
+      </Element>
+      <Element>
+        <Name>AttachDbFilename</Name>
+        <Value>|mydbfile.mdf|DataDirectory</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>Trusted_Connection</Name>
+        <Value>Yes</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>PostgreSQL</Backend>
+    <Type>dotConnect for PostgreSQL (former Core Labs PostgreSQLDirect)</Type>
+    <Elements>
+      <Element>
+        <Name>User ID</Name>
+        <Value>root</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Host</Name>
+        <Value>localhost</Value>
+      </Element>
+      <Element>
+        <Name>Port</Name>
+        <Value>5432</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>Pooling</Name>
+        <Value>true</Value>
+      </Element>
+      <Element>
+        <Name>Min Pool Size</Name>
+        <Value>0</Value>
+      </Element>
+      <Element>
+        <Name>Max Pool Size</Name>
+        <Value>100</Value>
+      </Element>
+      <Element>
+        <Name>Connection Lifetime</Name>
+        <Value>0</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  "<ConnectionString>
+    <Backend>PostgreSQL</Backend>
+    <Type>PostgreSQL OLE DB Provider</Type>
+    <Notes>
+PgOleDb requires PQLib at least version 7.4 and backend at least version 7.4. If version 8.0 onwards Timestamps are reliable.
+Provider can also be ""PostgreSQL"" or ""PostgreSQL.1""
+    </Notes>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>PostgreSQL OLE DB Provider</Value>
+      </Element>
+      <Element>
+        <Name>Data Source</Name>
+        <Value>myServerAddress</Value>
+      </Element>
+      <Element>
+        <Name>location</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>User ID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>"
+  <ConnectionString>
+    <Backend>PostgreSQL</Backend>
+    <Type>Npgsql</Type>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>192.168.27.1</Value>
+      </Element>
+      <Element>
+        <Name>Port</Name>
+        <Value>5432</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>User Id</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>PostgreSQL</Backend>
+    <Type>Npgsql - Using windows security</Type>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>192.168.27.1</Value>
+      </Element>
+      <Element>
+        <Name>Port</Name>
+        <Value>5432</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>Integrated Security</Name>
+        <Value>true</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>PostgreSQL</Backend>
+    <Type>Npgsql - SSL activated</Type>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>192.168.27.1</Value>
+      </Element>
+      <Element>
+        <Name>Port</Name>
+        <Value>5432</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>Userid</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Protocol</Name>
+        <Value>3</Value>
+      </Element>
+      <Element>
+        <Name>SSL</Name>
+        <Value>true</Value>
+      </Element>
+      <Element>
+        <Name>SslMode</Name>
+        <Value>Require</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>PostgreSQL</Backend>
+    <Type>Npgsql - Without SSL</Type>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>192.168.27.1</Value>
+      </Element>
+      <Element>
+        <Name>Port</Name>
+        <Value>5432</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>Userid</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Protocol</Name>
+        <Value>3</Value>
+      </Element>
+      <Element>
+        <Name>SSL</Name>
+        <Value>false</Value>
+      </Element>
+      <Element>
+        <Name>SslMode</Name>
+        <Value>Disable</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>PostgreSQL</Backend>
+    <Type>Npgsql - Controlling pooling mechanisms</Type>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>192.168.27.1</Value>
+      </Element>
+      <Element>
+        <Name>Port</Name>
+        <Value>5432</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>Userid</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Protocol</Name>
+        <Value>3</Value>
+      </Element>
+      <Element>
+        <Name>Pooling</Name>
+        <Value>true</Value>
+      </Element>
+      <Element>
+        <Name>MinPoolSize</Name>
+        <Value>1</Value>
+      </Element>
+      <Element>
+        <Name>MaxPoolSize</Name>
+        <Value>20</Value>
+      </Element>
+      <Element>
+        <Name>ConnectionLifeTime</Name>
+        <Value>15</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>DB2</Backend>
+    <Type>DB2 .NET Data Provider</Type>
+    <Notes>Server key value syntax is Server Name / IP address and optional port no (delimited with ":").</Notes>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>myAddress:myPortNo</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>UID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>pwd</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>DB2</Backend>
+    <Type>DB2 .NET Data Provider - Defining connection pooling pool size</Type>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>myAddress:myPortNo</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>UID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>PWD</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Max Pool Size</Name>
+        <Value>100</Value>
+      </Element>
+      <Element>
+        <Name>Min Pool Size</Name>
+        <Value>10</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>DB2</Backend>
+    <Type>DB2 .NET Data Provider - Disable connection pooling</Type>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>myAddress:myPortNo</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>UID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>pwd</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>Pooling</Name>
+        <Value>false</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>DB2</Backend>
+    <Type>DB2 .NET Data Provider - Specifying schema</Type>
+    <Notes>Unqualified SQL objects using the current connection will be qualified when using the provided schema name.</Notes>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>myAddress:myPortNo</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>UID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>PWD</Name>
+        <Value>myPassword</Value>
+      </Element>
+      <Element>
+        <Name>CurrentSchema</Name>
+        <Value>mySchema</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>DB2</Backend>
+    <Type>IBM OLE DB Provider for DB2 - TCP/IP</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>IBMDADB2</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>Hostname</Name>
+        <Value>myServerAddress</Value>
+      </Element>
+      <Element>
+        <Name>Protocol</Name>
+        <Value>TCPIP</Value>
+      </Element>
+      <Element>
+        <Name>Port</Name>
+        <Value>50000</Value>
+      </Element>
+      <Element>
+        <Name>Uid</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Pwd</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>DB2</Backend>
+    <Type>Microsoft OLEDB provider for DB2 - TCP/IP</Type>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>DB2OLEDB</Value>
+      </Element>
+      <Element>
+        <Name>Network Transport Library</Name>
+        <Value>TCPIP</Value>
+      </Element>
+      <Element>
+        <Name>Network Address</Name>
+        <Value>192.168.27.1</Value>
+      </Element>
+      <Element>
+        <Name>Initial Catalog</Name>
+        <Value>myCatalog</Value>
+      </Element>
+      <Element>
+        <Name>Package Collection</Name>
+        <Value>myPackageCollection</Value>
+      </Element>
+      <Element>
+        <Name>Default Schema</Name>
+        <Value>Schema</Value>
+      </Element>
+      <Element>
+        <Name>User ID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>DB2</Backend>
+    <Type>IBM DB2 Driver for ODBC and CLI</Type>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{IBM DB2 ODBC DRIVER}</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>myDataBase</Value>
+      </Element>
+      <Element>
+        <Name>Hostname</Name>
+        <Value>myServer</Value>
+      </Element>
+      <Element>
+        <Name>Port</Name>
+        <Value>1234</Value>
+      </Element>
+      <Element>
+        <Name>Protocol</Name>
+        <Value>TCPIP</Value>
+      </Element>
+      <Element>
+        <Name>UID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>pwd</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>DB2</Backend>
+    <Type>IBM DB2 Driver for ODBC and CLI - Database Alias</Type>
+    <Notes>If the database keyword fails then try this dbalias alternative</Notes>
+    <Elements>
+      <Element>
+        <Name>Driver</Name>
+        <Value>{IBM DB2 ODBC DRIVER}</Value>
+      </Element>
+      <Element>
+        <Name>DBALIAS</Name>
+        <Value>myDatabaseAlias</Value>
+      </Element>
+      <Element>
+        <Name>UID</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>pwd</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Sharepoint</Backend>
+    <Type>Camelot .NET Connector for Microsoft SharePoint</Type>
+    <Notes>NTLM is the default authentication method (Domain and Database are optional).</Notes>
+    <Elements>
+      <Element>
+        <Name>Server</Name>
+        <Value>myServer</Value>
+      </Element>
+      <Element>
+        <Name>Database</Name>
+        <Value>mySite</Value>
+      </Element>
+      <Element>
+        <Name>Domain</Name>
+        <Value>myDomain</Value>
+      </Element>
+      <Element>
+        <Name>User</Name>
+        <Value>myUsername</Value>
+      </Element>
+      <Element>
+        <Name>Password</Name>
+        <Value>myPassword</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  "<ConnectionString>
+    <Backend>MS Sharepoint</Backend>
+    <Type>Microsoft ACE OLEDB 12.0 - Read, update and delete</Type>
+    <Notes>
+      Database = Sharepoint URL
+      List = GUID value for Sharepoint List (or table)
+    </Notes>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.ACE.OLEDB.12.0</Value>
+      </Element>
+      <Element>
+        <Name>WSS</Name>
+        <Value></Value>
+      </Element>
+      <Element>
+        <Name>IMEX</Name>
+        <Value>2</Value>
+      </Element>
+      <Element>
+        <Name>RetrieveIds</Name>
+        <Value>Yes</Value>
+      </Element>
+      <Element>
+        <Name>DATABASE</Name>
+        <Value>http://mySharepointWebsite.com/documents/</Value>
+      </Element>
+      <Element>
+        <Name>LIST</Name>
+        <Value>{5999B8A0-0C2F-4D4D-9C5A-D7B146E49698}</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>"
+  "<ConnectionString>
+    <Backend>MS Sharepoint</Backend>
+    <Type>Microsoft ACE OLEDB 12.0 - Read only</Type>
+    <Notes>
+Database = Sharepoint URL
+List = GUID value for Sharepoint List (or table)
+    </Notes>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.ACE.OLEDB.12.0</Value>
+      </Element>
+      <Element>
+        <Name>WSS</Name>
+        <Value></Value>
+      </Element>
+      <Element>
+        <Name>IMEX</Name>
+        <Value>1</Value>
+      </Element>
+      <Element>
+        <Name>RetrieveIds</Name>
+        <Value>Yes</Value>
+      </Element>
+      <Element>
+        <Name>DATABASE</Name>
+        <Value>http://mySharepointWebsite.com/documents/</Value>
+      </Element>
+      <Element>
+        <Name>LIST</Name>
+        <Value>{5999B8A0-0C2F-4D4D-9C5A-D7B146E49698}</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+  <ConnectionString>
+    <Backend>MS Sharepoint</Backend>
+    <Type>Microsoft ACE OLEDB 12.0 - Write</Type>
+    <Notes>
+Database = Sharepoint URL
+List = GUID value for Sharepoint List (or table)
+    </Notes>
+    <Elements>
+      <Element>
+        <Name>Provider</Name>
+        <Value>Microsoft.ACE.OLEDB.12.0</Value>
+      </Element>
+      <Element>
+        <Name>WSS</Name>
+        <Value></Value>
+      </Element>
+      <Element>
+        <Name>IMEX</Name>
+        <Value>0</Value>
+      </Element>
+      <Element>
+        <Name>RetrieveIds</Name>
+        <Value>Yes</Value>
+      </Element>
+      <Element>
+        <Name>DATABASE</Name>
+        <Value>http://mySharepointWebsite.com/documents/</Value>
+      </Element>
+      <Element>
+        <Name>LIST</Name>
+        <Value>{5999B8A0-0C2F-4D4D-9C5A-D7B146E49698}</Value>
+      </Element>
+    </Elements>
+  </ConnectionString>
+</ConnectionStrings>

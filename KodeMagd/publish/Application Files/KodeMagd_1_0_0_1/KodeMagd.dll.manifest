@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="KodeMagd.dll" version="1.0.0.1" publicKeyToken="2dd9f2daa5fa2740" language="neutral" processorArchitecture="msil" type="win32" />
+  <description xmlns="urn:schemas-microsoft-com:asm.v1">KodeMagd</description>
+  <application />
+  <entryPoint>
+    <co.v1:customHostSpecified />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.Excel" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.v4.0.Framework" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualStudio.Tools.Applications.Runtime" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IntelliLock.Licensing.dll" size="24576">
+      <assemblyIdentity name="IntelliLock.Licensing" version="1.0.2.0" publicKeyToken="FA31F7B96357ACDC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>lecAITVwjchLzwjjSfJCDD5bHzs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KodeMagd.dll" size="2416128">
+      <assemblyIdentity name="KodeMagd" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rxwEQDIzaWvkoX5ilQr6MSKTv8Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Tools.Common.v4.0.Utilities.dll" size="32664">
+      <assemblyIdentity name="Microsoft.Office.Tools.Common.v4.0.Utilities" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CtnCtseaMyfROIGe0ENdGO6arHg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="KodeMagd.dll.config" size="149">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RJL2B1bxQdXE1nzXzqkvrd0Qzxs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\KodeMagd.ico" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>twfZj3GNQ60CR4qg4GE56ORs/Zk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Settings\connectionStrings.xml" size="47523" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Z/EsRd7QOEPfxYYh7NMu+F1GSiU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <vstav3:addIn xmlns:vstav3="urn:schemas-microsoft-com:vsta.v3">
+    <vstav3:entryPointsCollection>
+      <vstav3:entryPoints>
+        <vstav3:entryPoint class="KodeMagd.ThisAddIn">
+          <assemblyIdentity name="KodeMagd" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+        </vstav3:entryPoint>
+      </vstav3:entryPoints>
+    </vstav3:entryPointsCollection>
+    <vstav3:update enabled="true">
+      <vstav3:expiration maximumAge="7" unit="days" />
+    </vstav3:update>
+    <vstav3:application>
+      <vstov4:customizations xmlns:vstov4="urn:schemas-microsoft-com:vsto.v4">
+        <vstov4:customization>
+          <vstov4:appAddIn application="Excel" loadBehavior="3" keyName="KodeMagd">
+            <vstov4:friendlyName>KodeMagd</vstov4:friendlyName>
+            <vstov4:description>KodeMagd</vstov4:description>
+            <vstov4.1:ribbonTypes xmlns:vstov4.1="urn:schemas-microsoft-com:vsto.v4.1" />
+          </vstov4:appAddIn>
+        </vstov4:customization>
+      </vstov4:customizations>
+    </vstav3:application>
+  </vstav3:addIn>
+<publisherIdentity name="CN=Win7\Matthew" issuerKeyHash="f746ff4c7913e74214900803b24aa9896228f0e2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>6zb0Fx8uw9gZfRQnXPinSQIeiaU=</DigestValue></Reference></SignedInfo><SignatureValue>FQSI+5m7RZvWKr6EaRvYK/J3HPVTZlNLjmgnyePUqgVgvG3Gm2A1NYq+vxdZugIpYa16M4Cg8BBQfL1EVVSO+XEEdgsxC0zNoUYRtvK9iGkIZE+A01yJGKFxIrTQlVmdfsJKhWfAb7Rc/VWQs42uaXQH50ycaVChGDX8RccCe8Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>03JgY7OYpZR/hp5tLFjvvP3FZqo1hrVKJxQu40Nh55rL+M6C+9u4rzbwyyfwRNZ/+Gw+5I5NeXQKkdkJDYLQRcc0xCTNkYKzWvtRNbH6UEcmTND25w9K8bg1HVO3DP7YuY68IpJ60Jr2amKTDLHoT0r5UktUS4cXz5X1oA+dnN8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a5891e0249a7f85c27147d19d8c32e1f17f436eb" Description="" Url=""><as:assemblyIdentity name="KodeMagd.dll" version="1.0.0.1" publicKeyToken="2dd9f2daa5fa2740" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Win7\Matthew</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>iu+xap67AZBShzsHbtcI3G60Vyc=</DigestValue></Reference></SignedInfo><SignatureValue>yCSGp4FNgq/WxWUkWIBTB6u+LTiFIBpKaGmephOk3hWrv8QKvCYPjs7v2MoXurIMqtnS3G2iLCzOVQgpr37dY7HRNLX0ph/GfowQaDOTyImvRZ24RM7e19TDO/n+SLVipdQpnXxuMrT+UU6YN4CUs8xHlkJidvgJoP7MhuH31sA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>03JgY7OYpZR/hp5tLFjvvP3FZqo1hrVKJxQu40Nh55rL+M6C+9u4rzbwyyfwRNZ/+Gw+5I5NeXQKkdkJDYLQRcc0xCTNkYKzWvtRNbH6UEcmTND25w9K8bg1HVO3DP7YuY68IpJ60Jr2amKTDLHoT0r5UktUS4cXz5X1oA+dnN8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQJ5Tni0fIorxNcyFGryZIJjANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAVwBpAG4ANwBcAE0AYQB0AHQAaABlAHcwHhcNMTQwNTEzMDgxNzM3WhcNMTUwNTEzMTQxNzM3WjAjMSEwHwYDVQQDHhgAVwBpAG4ANwBcAE0AYQB0AHQAaABlAHcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANNyYGOzmKWUf4aebSxY77z9xWaqNYa1SicULuNDYeeay/jOgvvbuK828Msn8ETWf/hsPuSOTXl0CpHZCQ2C0EXHNMQkzZGCs1r7UTWx+lBHJkzQ9ucPSvG4NR1Ttwz+2LmOvCKSetCa9mpikwyx6E9K+VJLVEuHF8+V9aAPnZzfAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAEYofArfDc1cj2HSnlPWNuKKKjMssNhbTJdOA/oyyFzCAoRPLNh0EWeIL/rvT+oT6wwQFFjOlRrQpdD/dlDg2iiJMQtj34DRYYhvU8dz6x8ONmKr7lP+3MwcPy1nHSzCF8rugHrMJgixoHV2zN6urjL+bCQJms/1KVxWqbDNkfGE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

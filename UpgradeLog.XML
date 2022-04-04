@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="KodeMagd">
+</Property><Property Name="Solution File" Value="c:\visual studio 2010\Projects\KodeMagd\KodeMagd.sln">
+</Property><Property Name="Date" Value="13 May 2014">
+</Property><Property Name="Time" Value="12:58">
+</Property></Properties><Event ErrorLevel="0" Project="KodeMagd" Source="KodeMagd\KodeMagd.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="KodeMagd" Source="KodeMagd\KodeMagd.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="KodeMagd.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="KodeMagd.sln" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="KodeMagd" Source="KodeMagd\KodeMagd.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
